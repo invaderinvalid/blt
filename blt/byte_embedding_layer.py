@@ -1,5 +1,5 @@
 import torch.nn as nn
-from blt.byte_encoder import UTF8Encoder
+from .byte_encoder import UTF8Encoder
 
 class ByteEmbedding(nn.Module):
 

@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
-from blt.pipeline import BytePatchEncoder
-from blt.global_transformer import GlobalTransformer
-from blt.config import GlobalConfig
+from .pipeline import BytePatchEncoder
+from .global_transformer import GlobalTransformer
+from .config import GlobalConfig
 
 
 class LocalDecoder(nn.Module):

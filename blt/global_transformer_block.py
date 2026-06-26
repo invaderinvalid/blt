@@ -1,6 +1,6 @@
 from torch import nn
-from blt.causal_attention import CausalSelfAttention
-from blt.mlp import MLP
+from .causal_attention import CausalSelfAttention
+from .mlp import MLP
 
 
 class TransformerBlock(nn.Module):

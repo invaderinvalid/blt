@@ -1,7 +1,7 @@
-from blt.byte_embedding_layer import ByteEmbedding
-from blt.local_transformer_block import LocalTransformer
-from blt.entropy_pred import EntropyPredictor
-from blt.patch_builder import PatchBuilder
+from .byte_embedding_layer import ByteEmbedding
+from .local_transformer_block import LocalTransformer
+from .entropy_pred import EntropyPredictor
+from .patch_builder import PatchBuilder
 import torch.nn as nn
 
 

@@ -1,6 +1,6 @@
 import torch.nn as nn
-from blt.positional_encoding import PatchPositionalEmbedding
-from blt.global_transformer_block import TransformerBlock
+from .positional_encoding import PatchPositionalEmbedding
+from .global_transformer_block import TransformerBlock
 
 
 class GlobalTransformer(nn.Module):
